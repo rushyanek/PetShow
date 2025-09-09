@@ -32,19 +32,20 @@
 ```yaml
 # Сообщения плагина
 messages:
-  no_permission: "&cУ вас нет прав для использования этой команды!"
-  pet_given: "&aПитомец &e%pet% &aвыдан игроку &e%player%"
-  pet_reset: "&cПитомец игрока &e%player% &cснят"
-  pet_not_exist: "&cТакого питомца не существует!"
-  player_not_found: "&cИгрок не найден!"
-
-# Политика передачи питомцев при смерти
-# player - питомец остается у жертвы
-# killer - питомец передается убийце
-# auto - зависит от настройки drop_to_kill у питомца
-pet_add: "auto"
-
+  no_permission: '&cУ вас нет прав!'
+  no_lic: '&cВаш плагин не прошел подлиность лицензии!'
+  pet_given: '&aПитомец &e%pet% &aвыдан игроку &e%player%&a.'
+  pet_reset: '&cПитомец удалён у игрока &e%player%&c.'
+  player_not_found: '&cИгрок не найден!'
+  pet_not_exist: '&cТакого питомца не существует!'
+  usage_main: '&eИспользование: /pet <set|reset|inv|menu>'
+  reload_done: '&aPetShow перезагружен.'
+  usage_set: '&e/pet set <player|self> <petId|optional>'
+  usage_set_other: '&e/pet set <player> <petId>'
+  usage_reset: '&e/pet reset <player|self>'
+  only_players: '&cТолько игрок может выполнять эту команду.'
 # Определения питомцев
+
 pets:
   Demon_pet:
     name: "&c&lДемон"
