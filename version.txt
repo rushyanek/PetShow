@@ -1,3 +1,4 @@
-ver: "0.1"
-url: "https://github.com/rushyanek/PetShow/releases/download/0.1/petshow.jar"
+ver: "0.2"
+url: "https://github.com/rushyanek/PetShow/releases/download/0.2/petshow.jar"
+
 
